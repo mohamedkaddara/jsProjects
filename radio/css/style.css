@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 360px;
+    background-color: #f44336c4;
+    margin: auto;
+    border: 2px #FFF solid;
+}
+main header{
+    height: 300px;
+}
+main header i.fas.fa-music{
+    font-size: 170px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ae307d;
+    margin: 20px;
+}
+main header h2{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: bold;
+}
+main header p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+}
+main #content{
+    background-color: #8bc34a;
+}
+main #content #buttons{
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    margin: auto;
+    padding: 25px;
+}
+main #buttons i{
+    font-size: 40px;
+    padding: 0 30px;
+    cursor: pointer;
+    color: #333;
+}
+/*************************************/
+article h2{
+    text-align: center;
+    color: #444;
+    font-family: cursive;
+    font-size: 22px;
+    margin: 5px;
+}
+main article input{
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/************************************/
+.themes{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 20px;
+}
+.themes .theme{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/********************************/
+.gp{
+    width: 100%;
+    max-width: 100%;
+}
+.gp img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 10px;
+    border-radius: 30px;
+}
+.gp h3{
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+    color: #673ab7;
+    position: relative;
+    bottom: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

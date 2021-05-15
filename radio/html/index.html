@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/web-fonts-with-css/css/fontawesome-all.min.css">
+    <title>Online Radio</title>
+</head>
+<body>
+
+    <main id="player">
+
+        <header>
+            <i class="fas fa-music"></i>
+            <h2>LIVE RADIO</h2>
+            <p id="title_radio">Radio 1</p>
+        </header>
+
+        <div id="content">
+
+            <article id="buttons">
+                <i class="fas fa-step-backward" id="back"></i>
+                <span id="play-pause"><i class="fas fa-play"></i></span>
+                <i class="fas fa-step-forward" id="next"></i>
+                <audio src="" id="audio_file"></audio>
+            </article>
+
+            <article>
+                <h2>Voice Volume</h2>
+                <input type="range" id="voice">
+                <h2>Speed Volume</h2>
+                <input type="range" id="speed" max="200" min="0">
+            </article>            
+
+            <article class="themes">
+                <div class="theme" data-themeColor="rgb(7 111 18)"></div>
+                <div class="theme" data-themeColor="#ffc107"></div>
+                <div class="theme" data-themeColor="#ff5722"></div>
+                <div class="theme" data-themeColor="#009688"></div>
+            </article>
+
+            <div class="gp">
+                <h3>Availbel Now on google Play</h3>
+                <img src="../gp.jpg" alt="google play">
+            </div>
+
+        </div>
+
+
+
+    </main>
+    
+    <script src="../js/script.js"></script>
+    <script src="../js/volume.js"></script>
+    <script src="../js/radioTheme.js"></script>
+</body>
+</html>

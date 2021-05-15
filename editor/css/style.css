@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    padding: 50px 0;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+nav .container h1{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+}
+nav .container h1 span {
+    color: #ff5722;
+}
+/***************************************/
+.editor{
+    width: 100%;
+    margin-top: 50px;
+}
+.editor textarea{
+    height: 400px;
+    width: 100%;
+    border: 2px #222 solid;
+    border-radius: 10px;
+    text-align: left;
+    color: #333;
+    font-family: monospace;
+    font-weight: bold;
+}
+.editor textarea:focus{
+    outline: none;
+}
+/**************************************************/
+.btnControle .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnControle .container button{
+    width: 120px;
+    padding: 10px;
+    border: 0;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnControle button:focus{
+    outline: none;
+}
+.btnControle .container #run{
+    background-color: #4caf50;
+}
+.btnControle .container #delete{
+    background-color: #f44336;
+}
+/******************************/
+.result h3{
+    font-size: 20px;
+    font-family: monospace;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+.result .line{
+    height: 3px;
+    width: 100%;
+    background-color: #333;
+    margin: 5px;
+}
+.result .resultArea{
+    height: 500px;
+    border: 2px #444 solid;
+}
+
+
+
+
+
+
+
+
+
+
+
